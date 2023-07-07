@@ -54,9 +54,9 @@ def get_api_data():
     connection = hive.Connection(
         host='your_hive_host',
         port=10000,  # Default HiveServer2 port
-        username='your_username',
-        password='your_password',
-        database='your_database'
+        username='username',
+        password='password',
+        database='database'
     )
 
     # Create a cursor to execute Hive queries
@@ -70,8 +70,8 @@ def get_api_data():
         "order": "desc",
         "fromdate": current_date,
         "todate": new_date,
-        "pagesize": 100,  # Number of items per page
-        "page": 1  # Number of 
+        "pagesize": 100, 
+        "page": 1   
     }
     all_data = []
     # Make the request
