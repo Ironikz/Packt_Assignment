@@ -71,7 +71,7 @@ def get_api_data():
         "fromdate": current_date,
         "todate": new_date,
         "pagesize": 100,  # Number of items per page
-        "page": 1  # Number of tags to retrieve (adjust as needed)
+        "page": 1  # Number of 
     }
     all_data = []
     # Make the request
